@@ -1,0 +1,39 @@
+.about-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+}
+
+
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px; /* Opcional: para darle un toque más suave */
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify; /* Justificar el texto para mejor lectura */
+  padding: 0 15px;
+}

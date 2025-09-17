@@ -1,0 +1,89 @@
+.services-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  color: #ecf0f1; /* Color de texto claro para el fondo oscuro */
+}
+
+.services-header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.services-header p {
+  font-size: 1.2rem;
+  color: #bdc3c7; /* Un gris más claro para la descripción */
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Espacio entre las tarjetas */
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en pantallas pequeñas */
+  margin-top: 40px;
+}
+
+.service-card {
+  background-color: #34495e; /* Un color de fondo para la tarjeta */
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px); /* Efecto para que la tarjeta "flote" */
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #3498db; /* Un azul brillante para el ícono */
+  margin-bottom: 15px;
+}
+
+.service-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.services-cta {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #2c3e50; /* El mismo color del fondo principal */
+  border: 2px solid #3498db; /* Un borde para destacar el CTA */
+  border-radius: 10px;
+}
+
+.cta-icon {
+  font-size: 2.5rem;
+  color: #3498db;
+}
+
+.services-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #2980b9;
+}
